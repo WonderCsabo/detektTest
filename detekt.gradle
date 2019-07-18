@@ -1,0 +1,10 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath "io.gitlab.arturbosch.detekt:detekt-gradle-plugin:1.0.0-RC16"
+    }
+}
+
+apply plugin: io.gitlab.arturbosch.detekt.DetektPlugin
